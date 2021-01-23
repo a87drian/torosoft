@@ -1,0 +1,10 @@
+.img-size-portfolio {
+  width: 2 * $img-height;
+  height: $img-height;
+}
+.carrusel-margin {
+  margin-top: 50px;
+}
+.margin-card-portfolio{
+  @extend .margin-card-nosotros;
+}
