@@ -68,6 +68,9 @@
   margin-bottom: 30px;
   background-color: #F23558; }
 
+.h1-center {
+  text-align: center; }
+
 .img-size-portfolio {
   width: 400px;
   height: 200px; }
