@@ -72,3 +72,8 @@
   background-color: $violeta;
   margin-left: 10px;
 }
+@media only screen and (min-width: 768px) {
+  .ocultar {
+      visibility: hidden;
+    }
+}
