@@ -72,11 +72,19 @@
   background-color: $violeta;
   margin-left: 10px;
 }
-.ocultar {
+.ocultar-list {
   visibility: hidden;
 }
+.ocultar-div {
+  display: none;
+}
 @media only screen and (min-width: 1024px) {
-  .ocultar {
+  .ocultar-list {
     visibility: visible ;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .ocultar-div {
+    display: blockg;
   }
 }
