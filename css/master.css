@@ -5,7 +5,8 @@
   border-color: #7CB1C1; }
 
 .navbar-color-fondo {
-  background-color: #BF2C98; }
+  background-color: #BF2C98;
+  z-index: 1; }
 
 .bordes {
   border-color: black;
