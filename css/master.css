@@ -83,7 +83,7 @@
   margin-bottom: 30px;
   background-color: #F23558; }
 
-d
+div h1 {
   text-align: center; }
 
 .img-size-portfolio {
@@ -101,3 +101,7 @@ header {
 
 footer {
   height: 100px; }
+
+.dropdown__margin {
+  margin-top: 10px;
+  margin-bottom: 10px; }

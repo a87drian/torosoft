@@ -1,0 +1,8 @@
+@mixin margin($top, $bottom) {
+    margin-top: $top;
+    margin-bottom: $bottom;
+  }
+  
+.dropdown__margin {
+    @include margin(10px, 10px)
+}
