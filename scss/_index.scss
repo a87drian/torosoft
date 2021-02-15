@@ -53,12 +53,21 @@
 }
 .girar:hover {
   animation-name: gira;
-  animation-duration: 2s;
+  animation-duration: 1s;
+}
+.otro_girar:hover {
+  animation-name: gira2 ;
+  animation-duration: 1s;
+}
+
+.otro_otro_girar:hover{
+  animation-name: gira3 ;
+  animation-duration: 1s;
 }
 @keyframes gira {
   from{
     transform: rotateX(0);
-    background-color: $bordoClaro;
+   
 
   }
   to{
@@ -66,7 +75,35 @@
     background-color: $amarillo;
   }
 
+  
 }
+@keyframes gira2 {
+  from{
+    transform: rotateX(0);
+
+  }
+  to{
+    transform: rotateX(1080);
+    background-color: $bordoClaro;
+    
+  }
+
+}
+
+@keyframes gira3 {
+  from{
+    transform: rotateX(0);
+
+  }
+  to{
+    transform: rotateX(1080);
+    background-color: $violeta;
+    
+  }
+
+}
+
+
 .footer-h6-1{
   text-align: left;
 }

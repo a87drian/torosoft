@@ -44,15 +44,36 @@
 
 .girar:hover {
   animation-name: gira;
-  animation-duration: 2s; }
+  animation-duration: 1s; }
+
+.otro_girar:hover {
+  animation-name: gira2;
+  animation-duration: 1s; }
+
+.otro_otro_girar:hover {
+  animation-name: gira3;
+  animation-duration: 1s; }
 
 @keyframes gira {
   from {
-    transform: rotateX(0);
-    background-color: #F23558; }
+    transform: rotateX(0); }
   to {
     transform: rotateX(1080);
     background-color: #F2D230; } }
+
+@keyframes gira2 {
+  from {
+    transform: rotateX(0); }
+  to {
+    transform: rotateX(1080);
+    background-color: #F23558; } }
+
+@keyframes gira3 {
+  from {
+    transform: rotateX(0); }
+  to {
+    transform: rotateX(1080);
+    background-color: #BF2C98; } }
 
 .footer-h6-1 {
   text-align: left; }
